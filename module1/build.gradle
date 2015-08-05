@@ -1,3 +1,8 @@
 dependencies {
 	compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
 }
+scmVersion {
+    tag {
+        prefix = 'gradlemultimodule'
+    }
+}

@@ -1,3 +1,8 @@
 dependencies {
 	compile project(':module1')
 }
+scmVersion {
+    tag {
+        prefix = 'gradlemultimodule'
+    }
+}
